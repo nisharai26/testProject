@@ -1,0 +1,32 @@
+html {
+   display: flex;
+   font-family: 'Open Sans',sans-serif;
+}
+input[type = "text"]{
+
+    font-size: 1rem;
+    font-family: 'Open Sans',sans-serif;
+    color: #595959;
+    flex-grow: 1;
+}
+
+
+.image{
+display: flex;
+flex-direction: row;
+margin-left: 100px;
+position: relative;
+}
+button {
+    color: black;
+    border-radius:5px;
+}
+button:hover {
+   
+    color:black;
+}
+@media only screen and (max-width: 480px) {
+    body {
+      background-color: lightblue;
+    }
+  }
